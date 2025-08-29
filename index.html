@@ -92,13 +92,21 @@
   </style>
 </head>
 <body>
-  <video autoplay loop muted class="bg-video">
-    <source src="D:/Downloads Chrome/ezgif-4d196af62cd8fb.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-
+  <video autoplay muted loop id="bg-video">
+  <source src="assets/ezgif-4d196af62cd8fb.mp4" type="video/mp4">
+</video>
+  <style>
+  #bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+</style>
   <div class="profile-container">
-    <img src="D:/Downloads Chrome/a_fe0b4e4b91ae84666e5de93865227c3f.gif" class="avatar" alt="Avatar">
+    <img src="assets/a_fe0b4e4b91ae84666e5de93865227c3f.gif" alt="Avatar">
     <div class="bio">vxmp1_dnd • I don’t owe anyone access to me. <span class="tag">[BLOOD MOON]</span></div>
     <div class="bio">
       ❝Trust is most powerful weapon❞<br>
@@ -116,3 +124,4 @@
   </div>
 </body>
 </html>
+
